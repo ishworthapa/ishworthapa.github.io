@@ -1,0 +1,57 @@
+<style>
+/* Scope styles to this shortcode instance */
+.hugo-accordion {
+  margin: 1rem 0;
+  display: grid;
+  gap: .75rem;
+}
+
+.hugo-accordion details {
+  border: 1px solid var(--border);
+  background: var(--entry);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.hugo-accordion summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  font-weight: 600;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  transition: background-color .15s ease, border-color .15s ease;
+}
+
+/* remove default marker */
+.hugo-accordion summary::-webkit-details-marker { display: none; }
+
+/* light-blue hover */
+.hugo-accordion summary:hover {
+  background: #dbeafe; /* light blue */
+}
+
+/* chevron */
+.hugo-accordion summary::after {
+  content: "▾";
+  opacity: .7;
+  transform: rotate(0deg);
+  transition: transform .15s ease;
+}
+.hugo-accordion details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+/* content */
+.hugo-accordion .content {
+  padding: 0 1rem 1rem 1rem;
+  border-top: 1px solid var(--border);
+}
+</style>
+
+<div class="hugo-accordion">
+  {{ .Inner }}
+</div>

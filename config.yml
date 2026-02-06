@@ -1,0 +1,116 @@
+baseURL: "https://ishworthapa.github.io/"
+title: Ishwor Thapa
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: Education
+          url: education/
+          weight: 2 
+        - name: CV 
+          url: cv.pdf
+          weight: 3
+        - name: Projects
+          url: projects/
+          weight: 5 
+        - name: Research
+          url: research/
+          weight: 4
+        - name: Publications
+          url: publications/
+          weight: 6
+
+params:
+    description: "This website hosts Ishwor Thapa's portfolio, cv, and academic journey."
+    author: Ishwor Thapa
+    googleAnalyticsID: "G-xxxxxx"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["education","cv","projects","research","papers"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Ishwor Thapa, Ph.D., M.S.
+          subtitle: "I am a Bioinformatics Software Developer in the Bioinformatics Core at the [<u>University of Nebraska at Omaha</u>](www.unomaha.edu), with years of experience in bioinformatics software development and computational research. 
+          <br><br>
+          My research focuses on computational biomarker discovery, agent-based modeling in biomedicine, the development of bioinformatics pipelines and software applications, and complex network applications in biomedicine. 
+          <br><br>
+          I am also affiliated with [<u> Mayo Clinic's Department of Urology</u>](https://www.mayo.edu/research/departments-divisions/department-urology/overview) as a research collaborator and primarily analyze extracellular vesicle capture and quantification, as well as their RNA and protein cargo.
+          "
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+              - name: Education
+                url: education/
+              - name: CV 
+                url: cv.pdf
+              - name: Research
+                url: research/
+              - name: Projects
+                url: projects/
+              - name: Publications
+                url: publications/
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:ithapa@unomaha.edu
+        - name: linkedin 
+          url: https://www.linkedin.com/in/ishwor-thapa-ab613054/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=GrTMQi4AAAAJ
+        - name: ORCID 
+          url: https://orcid.org/0000-0002-3594-1631
+        - name: GitHub
+          url: https://github.com/ishworthapa
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Ishwor Thapa"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
