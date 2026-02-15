@@ -32,7 +32,7 @@ menu:
           weight: 6
 
 params:
-    description: "This website hosts Ishwor Thapa's portfolio, cv, and academic journey."
+    description: "This website presents Ishwor Thapa's portfolio, cv, and academic journey."
     author: Ishwor Thapa
     googleAnalyticsID: "G-xxxxxx"
     DateFormat: "January 2006"
@@ -71,7 +71,7 @@ params:
               - name: Education
                 url: education/
               - name: CV 
-                url: cv.pdf
+                url: https://ishworthapa.github.io/cv.pdf
               - name: Research
                 url: research/
               - name: Projects
@@ -81,7 +81,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: https://ishworthapa.github.io/cv.pdf
         - name: Email
           url: mailto:ithapa@unomaha.edu
         - name: linkedin 
