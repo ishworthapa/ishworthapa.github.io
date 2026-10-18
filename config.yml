@@ -66,7 +66,6 @@ params:
           buttons:
               - name: Education
                 url: education/
-
               - name: Research
                 url: research/
               - name: Projects
@@ -82,7 +81,6 @@ params:
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=GrTMQi4AAAAJ
         - name: ORCID 
-          url: https://orcid.org/0000-0002-3594-1631
         - name: GitHub
           url: https://github.com/ishworthapa
 
