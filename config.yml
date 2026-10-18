@@ -18,9 +18,6 @@ menu:
         - name: Education
           url: education/
           weight: 2 
-        - name: CV 
-          url: cv.pdf
-          weight: 3
         - name: Projects
           url: projects/
           weight: 5 
@@ -69,8 +66,7 @@ params:
           buttons:
               - name: Education
                 url: education/
-              - name: CV 
-                url: cv.pdf
+
               - name: Research
                 url: research/
               - name: Projects
@@ -79,10 +75,8 @@ params:
                 url: publications/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
-          url: mailto:ithapa@unomaha.edu
+          url: mailto:ishworthapa@gmail.com
         - name: linkedin 
           url: https://www.linkedin.com/in/ishwor-thapa-ph-d-ab613054/
         - name: Google Scholar
